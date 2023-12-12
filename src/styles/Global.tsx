@@ -21,6 +21,9 @@ export const colors = {
     brand1: {
       color: "$brand1",
     },
+    brand2: {
+      color: "$brand2",
+    },
 
     grey1: {
       color: "$grey1",
@@ -65,7 +68,7 @@ export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
       brand1: "#5C63ED",
-      brand2: "#7D82F1",
+      brand2: "#293A61",
       brand3: "#BEC1F8",
       brand4: "#E7E8FC",
       grey1: "#212529",
