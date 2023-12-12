@@ -11,7 +11,7 @@ const AboutMe = ()=>{
      <Typography as="h1" type="heading1" color="grey5">Criando experiências por meio da tecnologia</Typography>
      <Typography type="body1" color="grey6"> Sou estudante de programação na Kenzie Academy Brasil, participei
               de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades</Typography>
+              desenvolvendo habilidades.</Typography>
      <AboutMeButtons>
        <Button  as="a" href="#projetos">Projetos</Button>
        <Button  as="a" type="btLink" color="grey5" href="#tecnologias">Tecnologias</Button>

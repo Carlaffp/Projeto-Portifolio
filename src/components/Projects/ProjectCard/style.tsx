@@ -15,14 +15,15 @@ export const ProjectCardLanguage = styled("span", {
   padding: "0  0.5rem",
   borderRadius: "$2",
   display: "flex",
-  justifyContent:"space-around",
-  width: "19rem",
+  justifyContent:"flex-start",
+  gap: "0.9rem",
+  width: "32rem",
   height: "1.5rem"
 });
 
 export const Language = styled(Typography, {
   backgroundColor: "$brand4",
-  width:"5.3rem",
+  width:"140px",
   display: "flex",
   justifyContent: "center",
   borderRadius: "$2",

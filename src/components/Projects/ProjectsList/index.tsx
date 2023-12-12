@@ -15,7 +15,7 @@ const ProjectsList = (): JSX.Element => {
           <Typography as="h2" type="heading4" color="grey1">Vamos trocar uma idéia?</Typography>
           <Typography as="p" type="body1" color="grey2">No linkedIn sempre estou compartilhando meus processos diários
                 para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                algumas ideias por lá.
           </Typography>
           <Button
           type="primary"

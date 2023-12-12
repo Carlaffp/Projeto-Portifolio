@@ -32,8 +32,10 @@ const ProjectCard = ({repo}:RepoProps) =>{
       <ProjectCardLinks>
       
       <ProjectLink href={repo.html_url} target="blank"> <FaGithub /> Github Code</ProjectLink>
-      
+      {repo.link !== "" &&(
+
       <ProjectLink href={repo.link} target="blank"> <IoArrowRedoSharp /> Aplicação</ProjectLink>
+      )}
       </ProjectCardLinks>
 
     </ProjectCardStyle>
